@@ -328,8 +328,8 @@ public class MaxSpec
 
         if(weaponName.contains("Burning claws"))
         {
-            int absoluteMax = (int) Math.floor(hit * 1.75);
-            int realMax = (int) Math.floor(absoluteMax * 0.25) + (int) Math.floor(absoluteMax * 0.25) + (int) Math.floor(absoluteMax * 0.5)
+            int absoluteMax = (int) (hit * 1.75);
+            int realMax = (int) (absoluteMax * 0.25) + (int) (absoluteMax * 0.25) + (int) (absoluteMax * 0.5);
             return realMax;
         }
 
